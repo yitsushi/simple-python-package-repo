@@ -26,7 +26,7 @@ In your repo locally:
 
 ```
 > python setup.py bdist_wheel
-> scp dist/*.whl yourserver:packages/yourpackage/
+> scp dist/* yourserver:packages/yourpackage/
 > ssh yourserver ./sync-published-packages.sh
 ```
 
